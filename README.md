@@ -97,30 +97,7 @@ Acertos da estratégia A por tipo de pergunta:
 | T08 | Como funciona o atendimento no SUS? | S02 | S02 | acerto | S02 | acerto |
 | T09 | Onde tomar vacina de graça? | S03 | S03 | acerto | S03 | acerto |
 | T10 | Como pedir o seguro-desemprego? | S04 | S04 | acerto | S04 | acerto |
-| T11 | Como me inscrever no CadÚnico? | S05 | S05 | acerto | S05 | acerto |
-| T12 | Qual número ligar em uma emergência de saúde? | S06 | S06 | acerto | AMBIGUA | ERRO |
-| T13 | Posso desistir de uma compra feita pela internet? | C01 | C01 | acerto | C01 | acerto |
-| T14 | Como denunciar violência doméstica contra a mulher? | C03 | C03 | acerto | C03 | acerto |
-| T15 | Quero tirar o RG novo | D02 | D02 | acerto | D02 | acerto |
-| T16 | Meu CPF está pendente, como regularizar? | D01 | D01 | acerto | D01 | acerto |
-| T17 | Fui demitido sem justa causa, tenho direito a algum benefício? | S04 | S04 | acerto | S04 | acerto |
-| T18 | Não tenho dinheiro para pagar advogado | C05 | C05 | acerto | C05 | acerto |
-| T19 | A empresa não resolveu meu problema, onde reclamar? | C02 | C02 | acerto | C02 | acerto |
-| T20 | Quem pode votar e quem tem voto facultativo? | C06 | C06 | acerto | C06 | acerto |
-| T21 | Como denunciar maus-tratos contra um idoso? | C04 | C04 | acerto | C04 | acerto |
-| T22 | Uma criança está sendo negligenciada, a quem recorrer? | C07 | C07 | acerto | C07 | acerto |
-| T23 | Qual a previsão do tempo para amanhã? | SEM_RESPOSTA | SEM_RESPOSTA | acerto | SEM_RESPOSTA | acerto |
-| T24 | Como fazer bolo de chocolate? | SEM_RESPOSTA | SEM_RESPOSTA | acerto | SEM_RESPOSTA | acerto |
-| T25 | Como declarar o imposto de renda do ano passado? | SEM_RESPOSTA | SEM_RESPOSTA | acerto | SEM_RESPOSTA | acerto |
-| T26 | (vazia) | ENTRADA_VAZIA | ENTRADA_VAZIA | acerto | ENTRADA_VAZIA | acerto |
-| T27 | ?!?! ### | ENTRADA_INVALIDA | ENTRADA_INVALIDA | acerto | ENTRADA_INVALIDA | acerto |
-| T28 | carteira | AMBIGUA | AMBIGUA | acerto | AMBIGUA | acerto |
-| T29 | Preciso de ajuda com documentos | AMBIGUA | AMBIGUA | acerto | BAIXA_CONFIANCA | ERRO |
-| T30 | Meu bebê nasceu, o que preciso fazer para registrar? | D03 | SEM_RESPOSTA | ERRO | SEM_RESPOSTA | ERRO |
-| T31 | Como saber se já posso me aposentar? | S01 | SEM_RESPOSTA | ERRO | SEM_RESPOSTA | ERRO |
-| T32 | Estou muito mal emocionalmente, onde encontro ajuda? | S06 | SEM_RESPOSTA | ERRO | SEM_RESPOSTA | ERRO |
-| T33 | Comprei um tênis no site e não gostei, posso devolver? | C01 | BAIXA_CONFIANCA | ERRO | BAIXA_CONFIANCA | ERRO |
-| T34 | Quanto tempo tenho para pedir seguro desemprego depois de demitido? | S04 | S04 | acerto | S04 | acerto |
+
 
 ## 6. Como executar
 Requisitos: Python 3.8+ (somente biblioteca padrão, sem instalar nada).
