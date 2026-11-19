@@ -1,0 +1,35 @@
+id,tipo,entrada,esperado,obtido_A,acerto_A,tempo_ms_A,obtido_B,acerto_B,tempo_ms_B
+T01,direta,Como consultar a situação do meu CPF?,D01,D01,ACERTO,0.3983,D01,ACERTO,0.0301
+T02,direta,Como emitir a Carteira de Identidade Nacional?,D02,D02,ACERTO,0.4049,D02,ACERTO,0.0274
+T03,direta,Onde faço a certidão de nascimento do meu filho?,D03,D03,ACERTO,0.428,D03,ACERTO,0.0243
+T04,direta,Como consultar meu local de votação?,D04,D04,ACERTO,0.3842,D04,ACERTO,0.0256
+T05,direta,Como solicitar o passaporte?,D05,D05,ACERTO,0.471,D05,ACERTO,0.0202
+T06,direta,Como acessar a Carteira de Trabalho Digital?,D06,D06,ACERTO,0.533,D06,ACERTO,0.0275
+T07,direta,Como agendar perícia no INSS?,S01,S01,ACERTO,0.3705,S01,ACERTO,0.0235
+T08,direta,Como funciona o atendimento no SUS?,S02,S02,ACERTO,0.4273,S02,ACERTO,0.0251
+T09,direta,Onde tomar vacina de graça?,S03,S03,ACERTO,0.3787,S03,ACERTO,0.0211
+T10,direta,Como pedir o seguro-desemprego?,S04,S04,ACERTO,0.4197,S04,ACERTO,0.0229
+T11,direta,Como me inscrever no CadÚnico?,S05,S05,ACERTO,0.4051,S05,ACERTO,0.0214
+T12,direta,Qual número ligar em uma emergência de saúde?,S06,S06,ACERTO,0.5763,AMBIGUA,ERRO,0.027
+T13,direta,Posso desistir de uma compra feita pela internet?,C01,C01,ACERTO,0.568,C01,ACERTO,0.0274
+T14,direta,Como denunciar violência doméstica contra a mulher?,C03,C03,ACERTO,0.3881,C03,ACERTO,0.0287
+T15,reformulacao,Quero tirar o RG novo,D02,D02,ACERTO,0.3813,D02,ACERTO,0.0187
+T16,reformulacao,"Meu CPF está pendente, como regularizar?",D01,D01,ACERTO,0.5097,D01,ACERTO,0.0255
+T17,reformulacao,"Fui demitido sem justa causa, tenho direito a algum benefício?",S04,S04,ACERTO,0.4373,S04,ACERTO,0.0325
+T18,reformulacao,Não tenho dinheiro para pagar advogado,C05,C05,ACERTO,0.4077,C05,ACERTO,0.0238
+T19,reformulacao,"A empresa não resolveu meu problema, onde reclamar?",C02,C02,ACERTO,0.3867,C02,ACERTO,0.0272
+T20,reformulacao,Quem pode votar e quem tem voto facultativo?,C06,C06,ACERTO,0.3847,C06,ACERTO,0.0256
+T21,reformulacao,Como denunciar maus-tratos contra um idoso?,C04,C04,ACERTO,0.3991,C04,ACERTO,0.0272
+T22,reformulacao,"Uma criança está sendo negligenciada, a quem recorrer?",C07,C07,ACERTO,0.3936,C07,ACERTO,0.0251
+T23,fora_do_tema,Qual a previsão do tempo para amanhã?,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,0.4212,SEM_RESPOSTA,ACERTO,0.03
+T24,fora_do_tema,Como fazer bolo de chocolate?,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,0.4067,SEM_RESPOSTA,ACERTO,0.0265
+T25,limite_ausencia_resposta,Como declarar o imposto de renda do ano passado?,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,0.4178,SEM_RESPOSTA,ACERTO,0.0325
+T26,limite_entrada_vazia,,ENTRADA_VAZIA,ENTRADA_VAZIA,ACERTO,0.0001,ENTRADA_VAZIA,ACERTO,0.0001
+T27,limite_entrada_invalida,?!?! ###,ENTRADA_INVALIDA,ENTRADA_INVALIDA,ACERTO,0.0005,ENTRADA_INVALIDA,ACERTO,0.0004
+T28,limite_ambigua,carteira,AMBIGUA,AMBIGUA,ACERTO,0.3916,AMBIGUA,ACERTO,0.0164
+T29,limite_ambigua,Preciso de ajuda com documentos,AMBIGUA,AMBIGUA,ACERTO,0.6719,BAIXA_CONFIANCA,ERRO,0.0226
+T30,reformulacao_dificil,"Meu bebê nasceu, o que preciso fazer para registrar?",D03,SEM_RESPOSTA,ERRO,0.5071,SEM_RESPOSTA,ERRO,0.0339
+T31,reformulacao_dificil,Como saber se já posso me aposentar?,S01,SEM_RESPOSTA,ERRO,0.412,SEM_RESPOSTA,ERRO,0.0292
+T32,reformulacao_dificil,"Estou muito mal emocionalmente, onde encontro ajuda?",S06,SEM_RESPOSTA,ERRO,0.4121,SEM_RESPOSTA,ERRO,0.0315
+T33,reformulacao_dificil,"Comprei um tênis no site e não gostei, posso devolver?",C01,BAIXA_CONFIANCA,ERRO,0.3965,BAIXA_CONFIANCA,ERRO,0.0264
+T34,reformulacao_dificil,Quanto tempo tenho para pedir seguro desemprego depois de demitido?,S04,S04,ACERTO,0.6579,S04,ACERTO,0.0321

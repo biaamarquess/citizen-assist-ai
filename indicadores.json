@@ -1,0 +1,673 @@
+{
+  "A": {
+    "resumo": {
+      "total": 34,
+      "acertos": 30,
+      "taxa_acerto": 88.2,
+      "tempo_medio_ms": 0.4161
+    },
+    "resultados": [
+      {
+        "id": "T01",
+        "tipo": "direta",
+        "entrada": "Como consultar a situação do meu CPF?",
+        "esperado": "D01",
+        "obtido": "D01",
+        "acerto": true,
+        "tempo_ms": 0.3983
+      },
+      {
+        "id": "T02",
+        "tipo": "direta",
+        "entrada": "Como emitir a Carteira de Identidade Nacional?",
+        "esperado": "D02",
+        "obtido": "D02",
+        "acerto": true,
+        "tempo_ms": 0.4049
+      },
+      {
+        "id": "T03",
+        "tipo": "direta",
+        "entrada": "Onde faço a certidão de nascimento do meu filho?",
+        "esperado": "D03",
+        "obtido": "D03",
+        "acerto": true,
+        "tempo_ms": 0.428
+      },
+      {
+        "id": "T04",
+        "tipo": "direta",
+        "entrada": "Como consultar meu local de votação?",
+        "esperado": "D04",
+        "obtido": "D04",
+        "acerto": true,
+        "tempo_ms": 0.3842
+      },
+      {
+        "id": "T05",
+        "tipo": "direta",
+        "entrada": "Como solicitar o passaporte?",
+        "esperado": "D05",
+        "obtido": "D05",
+        "acerto": true,
+        "tempo_ms": 0.471
+      },
+      {
+        "id": "T06",
+        "tipo": "direta",
+        "entrada": "Como acessar a Carteira de Trabalho Digital?",
+        "esperado": "D06",
+        "obtido": "D06",
+        "acerto": true,
+        "tempo_ms": 0.533
+      },
+      {
+        "id": "T07",
+        "tipo": "direta",
+        "entrada": "Como agendar perícia no INSS?",
+        "esperado": "S01",
+        "obtido": "S01",
+        "acerto": true,
+        "tempo_ms": 0.3705
+      },
+      {
+        "id": "T08",
+        "tipo": "direta",
+        "entrada": "Como funciona o atendimento no SUS?",
+        "esperado": "S02",
+        "obtido": "S02",
+        "acerto": true,
+        "tempo_ms": 0.4273
+      },
+      {
+        "id": "T09",
+        "tipo": "direta",
+        "entrada": "Onde tomar vacina de graça?",
+        "esperado": "S03",
+        "obtido": "S03",
+        "acerto": true,
+        "tempo_ms": 0.3787
+      },
+      {
+        "id": "T10",
+        "tipo": "direta",
+        "entrada": "Como pedir o seguro-desemprego?",
+        "esperado": "S04",
+        "obtido": "S04",
+        "acerto": true,
+        "tempo_ms": 0.4197
+      },
+      {
+        "id": "T11",
+        "tipo": "direta",
+        "entrada": "Como me inscrever no CadÚnico?",
+        "esperado": "S05",
+        "obtido": "S05",
+        "acerto": true,
+        "tempo_ms": 0.4051
+      },
+      {
+        "id": "T12",
+        "tipo": "direta",
+        "entrada": "Qual número ligar em uma emergência de saúde?",
+        "esperado": "S06",
+        "obtido": "S06",
+        "acerto": true,
+        "tempo_ms": 0.5763
+      },
+      {
+        "id": "T13",
+        "tipo": "direta",
+        "entrada": "Posso desistir de uma compra feita pela internet?",
+        "esperado": "C01",
+        "obtido": "C01",
+        "acerto": true,
+        "tempo_ms": 0.568
+      },
+      {
+        "id": "T14",
+        "tipo": "direta",
+        "entrada": "Como denunciar violência doméstica contra a mulher?",
+        "esperado": "C03",
+        "obtido": "C03",
+        "acerto": true,
+        "tempo_ms": 0.3881
+      },
+      {
+        "id": "T15",
+        "tipo": "reformulacao",
+        "entrada": "Quero tirar o RG novo",
+        "esperado": "D02",
+        "obtido": "D02",
+        "acerto": true,
+        "tempo_ms": 0.3813
+      },
+      {
+        "id": "T16",
+        "tipo": "reformulacao",
+        "entrada": "Meu CPF está pendente, como regularizar?",
+        "esperado": "D01",
+        "obtido": "D01",
+        "acerto": true,
+        "tempo_ms": 0.5097
+      },
+      {
+        "id": "T17",
+        "tipo": "reformulacao",
+        "entrada": "Fui demitido sem justa causa, tenho direito a algum benefício?",
+        "esperado": "S04",
+        "obtido": "S04",
+        "acerto": true,
+        "tempo_ms": 0.4373
+      },
+      {
+        "id": "T18",
+        "tipo": "reformulacao",
+        "entrada": "Não tenho dinheiro para pagar advogado",
+        "esperado": "C05",
+        "obtido": "C05",
+        "acerto": true,
+        "tempo_ms": 0.4077
+      },
+      {
+        "id": "T19",
+        "tipo": "reformulacao",
+        "entrada": "A empresa não resolveu meu problema, onde reclamar?",
+        "esperado": "C02",
+        "obtido": "C02",
+        "acerto": true,
+        "tempo_ms": 0.3867
+      },
+      {
+        "id": "T20",
+        "tipo": "reformulacao",
+        "entrada": "Quem pode votar e quem tem voto facultativo?",
+        "esperado": "C06",
+        "obtido": "C06",
+        "acerto": true,
+        "tempo_ms": 0.3847
+      },
+      {
+        "id": "T21",
+        "tipo": "reformulacao",
+        "entrada": "Como denunciar maus-tratos contra um idoso?",
+        "esperado": "C04",
+        "obtido": "C04",
+        "acerto": true,
+        "tempo_ms": 0.3991
+      },
+      {
+        "id": "T22",
+        "tipo": "reformulacao",
+        "entrada": "Uma criança está sendo negligenciada, a quem recorrer?",
+        "esperado": "C07",
+        "obtido": "C07",
+        "acerto": true,
+        "tempo_ms": 0.3936
+      },
+      {
+        "id": "T23",
+        "tipo": "fora_do_tema",
+        "entrada": "Qual a previsão do tempo para amanhã?",
+        "esperado": "SEM_RESPOSTA",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": true,
+        "tempo_ms": 0.4212
+      },
+      {
+        "id": "T24",
+        "tipo": "fora_do_tema",
+        "entrada": "Como fazer bolo de chocolate?",
+        "esperado": "SEM_RESPOSTA",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": true,
+        "tempo_ms": 0.4067
+      },
+      {
+        "id": "T25",
+        "tipo": "limite_ausencia_resposta",
+        "entrada": "Como declarar o imposto de renda do ano passado?",
+        "esperado": "SEM_RESPOSTA",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": true,
+        "tempo_ms": 0.4178
+      },
+      {
+        "id": "T26",
+        "tipo": "limite_entrada_vazia",
+        "entrada": "",
+        "esperado": "ENTRADA_VAZIA",
+        "obtido": "ENTRADA_VAZIA",
+        "acerto": true,
+        "tempo_ms": 0.0001
+      },
+      {
+        "id": "T27",
+        "tipo": "limite_entrada_invalida",
+        "entrada": "?!?! ###",
+        "esperado": "ENTRADA_INVALIDA",
+        "obtido": "ENTRADA_INVALIDA",
+        "acerto": true,
+        "tempo_ms": 0.0005
+      },
+      {
+        "id": "T28",
+        "tipo": "limite_ambigua",
+        "entrada": "carteira",
+        "esperado": "AMBIGUA",
+        "obtido": "AMBIGUA",
+        "acerto": true,
+        "tempo_ms": 0.3916
+      },
+      {
+        "id": "T29",
+        "tipo": "limite_ambigua",
+        "entrada": "Preciso de ajuda com documentos",
+        "esperado": "AMBIGUA",
+        "obtido": "AMBIGUA",
+        "acerto": true,
+        "tempo_ms": 0.6719
+      },
+      {
+        "id": "T30",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Meu bebê nasceu, o que preciso fazer para registrar?",
+        "esperado": "D03",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": false,
+        "tempo_ms": 0.5071
+      },
+      {
+        "id": "T31",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Como saber se já posso me aposentar?",
+        "esperado": "S01",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": false,
+        "tempo_ms": 0.412
+      },
+      {
+        "id": "T32",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Estou muito mal emocionalmente, onde encontro ajuda?",
+        "esperado": "S06",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": false,
+        "tempo_ms": 0.4121
+      },
+      {
+        "id": "T33",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Comprei um tênis no site e não gostei, posso devolver?",
+        "esperado": "C01",
+        "obtido": "BAIXA_CONFIANCA",
+        "acerto": false,
+        "tempo_ms": 0.3965
+      },
+      {
+        "id": "T34",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Quanto tempo tenho para pedir seguro desemprego depois de demitido?",
+        "esperado": "S04",
+        "obtido": "S04",
+        "acerto": true,
+        "tempo_ms": 0.6579
+      }
+    ]
+  },
+  "B": {
+    "resumo": {
+      "total": 34,
+      "acertos": 28,
+      "taxa_acerto": 82.4,
+      "tempo_medio_ms": 0.0247
+    },
+    "resultados": [
+      {
+        "id": "T01",
+        "tipo": "direta",
+        "entrada": "Como consultar a situação do meu CPF?",
+        "esperado": "D01",
+        "obtido": "D01",
+        "acerto": true,
+        "tempo_ms": 0.0301
+      },
+      {
+        "id": "T02",
+        "tipo": "direta",
+        "entrada": "Como emitir a Carteira de Identidade Nacional?",
+        "esperado": "D02",
+        "obtido": "D02",
+        "acerto": true,
+        "tempo_ms": 0.0274
+      },
+      {
+        "id": "T03",
+        "tipo": "direta",
+        "entrada": "Onde faço a certidão de nascimento do meu filho?",
+        "esperado": "D03",
+        "obtido": "D03",
+        "acerto": true,
+        "tempo_ms": 0.0243
+      },
+      {
+        "id": "T04",
+        "tipo": "direta",
+        "entrada": "Como consultar meu local de votação?",
+        "esperado": "D04",
+        "obtido": "D04",
+        "acerto": true,
+        "tempo_ms": 0.0256
+      },
+      {
+        "id": "T05",
+        "tipo": "direta",
+        "entrada": "Como solicitar o passaporte?",
+        "esperado": "D05",
+        "obtido": "D05",
+        "acerto": true,
+        "tempo_ms": 0.0202
+      },
+      {
+        "id": "T06",
+        "tipo": "direta",
+        "entrada": "Como acessar a Carteira de Trabalho Digital?",
+        "esperado": "D06",
+        "obtido": "D06",
+        "acerto": true,
+        "tempo_ms": 0.0275
+      },
+      {
+        "id": "T07",
+        "tipo": "direta",
+        "entrada": "Como agendar perícia no INSS?",
+        "esperado": "S01",
+        "obtido": "S01",
+        "acerto": true,
+        "tempo_ms": 0.0235
+      },
+      {
+        "id": "T08",
+        "tipo": "direta",
+        "entrada": "Como funciona o atendimento no SUS?",
+        "esperado": "S02",
+        "obtido": "S02",
+        "acerto": true,
+        "tempo_ms": 0.0251
+      },
+      {
+        "id": "T09",
+        "tipo": "direta",
+        "entrada": "Onde tomar vacina de graça?",
+        "esperado": "S03",
+        "obtido": "S03",
+        "acerto": true,
+        "tempo_ms": 0.0211
+      },
+      {
+        "id": "T10",
+        "tipo": "direta",
+        "entrada": "Como pedir o seguro-desemprego?",
+        "esperado": "S04",
+        "obtido": "S04",
+        "acerto": true,
+        "tempo_ms": 0.0229
+      },
+      {
+        "id": "T11",
+        "tipo": "direta",
+        "entrada": "Como me inscrever no CadÚnico?",
+        "esperado": "S05",
+        "obtido": "S05",
+        "acerto": true,
+        "tempo_ms": 0.0214
+      },
+      {
+        "id": "T12",
+        "tipo": "direta",
+        "entrada": "Qual número ligar em uma emergência de saúde?",
+        "esperado": "S06",
+        "obtido": "AMBIGUA",
+        "acerto": false,
+        "tempo_ms": 0.027
+      },
+      {
+        "id": "T13",
+        "tipo": "direta",
+        "entrada": "Posso desistir de uma compra feita pela internet?",
+        "esperado": "C01",
+        "obtido": "C01",
+        "acerto": true,
+        "tempo_ms": 0.0274
+      },
+      {
+        "id": "T14",
+        "tipo": "direta",
+        "entrada": "Como denunciar violência doméstica contra a mulher?",
+        "esperado": "C03",
+        "obtido": "C03",
+        "acerto": true,
+        "tempo_ms": 0.0287
+      },
+      {
+        "id": "T15",
+        "tipo": "reformulacao",
+        "entrada": "Quero tirar o RG novo",
+        "esperado": "D02",
+        "obtido": "D02",
+        "acerto": true,
+        "tempo_ms": 0.0187
+      },
+      {
+        "id": "T16",
+        "tipo": "reformulacao",
+        "entrada": "Meu CPF está pendente, como regularizar?",
+        "esperado": "D01",
+        "obtido": "D01",
+        "acerto": true,
+        "tempo_ms": 0.0255
+      },
+      {
+        "id": "T17",
+        "tipo": "reformulacao",
+        "entrada": "Fui demitido sem justa causa, tenho direito a algum benefício?",
+        "esperado": "S04",
+        "obtido": "S04",
+        "acerto": true,
+        "tempo_ms": 0.0325
+      },
+      {
+        "id": "T18",
+        "tipo": "reformulacao",
+        "entrada": "Não tenho dinheiro para pagar advogado",
+        "esperado": "C05",
+        "obtido": "C05",
+        "acerto": true,
+        "tempo_ms": 0.0238
+      },
+      {
+        "id": "T19",
+        "tipo": "reformulacao",
+        "entrada": "A empresa não resolveu meu problema, onde reclamar?",
+        "esperado": "C02",
+        "obtido": "C02",
+        "acerto": true,
+        "tempo_ms": 0.0272
+      },
+      {
+        "id": "T20",
+        "tipo": "reformulacao",
+        "entrada": "Quem pode votar e quem tem voto facultativo?",
+        "esperado": "C06",
+        "obtido": "C06",
+        "acerto": true,
+        "tempo_ms": 0.0256
+      },
+      {
+        "id": "T21",
+        "tipo": "reformulacao",
+        "entrada": "Como denunciar maus-tratos contra um idoso?",
+        "esperado": "C04",
+        "obtido": "C04",
+        "acerto": true,
+        "tempo_ms": 0.0272
+      },
+      {
+        "id": "T22",
+        "tipo": "reformulacao",
+        "entrada": "Uma criança está sendo negligenciada, a quem recorrer?",
+        "esperado": "C07",
+        "obtido": "C07",
+        "acerto": true,
+        "tempo_ms": 0.0251
+      },
+      {
+        "id": "T23",
+        "tipo": "fora_do_tema",
+        "entrada": "Qual a previsão do tempo para amanhã?",
+        "esperado": "SEM_RESPOSTA",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": true,
+        "tempo_ms": 0.03
+      },
+      {
+        "id": "T24",
+        "tipo": "fora_do_tema",
+        "entrada": "Como fazer bolo de chocolate?",
+        "esperado": "SEM_RESPOSTA",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": true,
+        "tempo_ms": 0.0265
+      },
+      {
+        "id": "T25",
+        "tipo": "limite_ausencia_resposta",
+        "entrada": "Como declarar o imposto de renda do ano passado?",
+        "esperado": "SEM_RESPOSTA",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": true,
+        "tempo_ms": 0.0325
+      },
+      {
+        "id": "T26",
+        "tipo": "limite_entrada_vazia",
+        "entrada": "",
+        "esperado": "ENTRADA_VAZIA",
+        "obtido": "ENTRADA_VAZIA",
+        "acerto": true,
+        "tempo_ms": 0.0001
+      },
+      {
+        "id": "T27",
+        "tipo": "limite_entrada_invalida",
+        "entrada": "?!?! ###",
+        "esperado": "ENTRADA_INVALIDA",
+        "obtido": "ENTRADA_INVALIDA",
+        "acerto": true,
+        "tempo_ms": 0.0004
+      },
+      {
+        "id": "T28",
+        "tipo": "limite_ambigua",
+        "entrada": "carteira",
+        "esperado": "AMBIGUA",
+        "obtido": "AMBIGUA",
+        "acerto": true,
+        "tempo_ms": 0.0164
+      },
+      {
+        "id": "T29",
+        "tipo": "limite_ambigua",
+        "entrada": "Preciso de ajuda com documentos",
+        "esperado": "AMBIGUA",
+        "obtido": "BAIXA_CONFIANCA",
+        "acerto": false,
+        "tempo_ms": 0.0226
+      },
+      {
+        "id": "T30",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Meu bebê nasceu, o que preciso fazer para registrar?",
+        "esperado": "D03",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": false,
+        "tempo_ms": 0.0339
+      },
+      {
+        "id": "T31",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Como saber se já posso me aposentar?",
+        "esperado": "S01",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": false,
+        "tempo_ms": 0.0292
+      },
+      {
+        "id": "T32",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Estou muito mal emocionalmente, onde encontro ajuda?",
+        "esperado": "S06",
+        "obtido": "SEM_RESPOSTA",
+        "acerto": false,
+        "tempo_ms": 0.0315
+      },
+      {
+        "id": "T33",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Comprei um tênis no site e não gostei, posso devolver?",
+        "esperado": "C01",
+        "obtido": "BAIXA_CONFIANCA",
+        "acerto": false,
+        "tempo_ms": 0.0264
+      },
+      {
+        "id": "T34",
+        "tipo": "reformulacao_dificil",
+        "entrada": "Quanto tempo tenho para pedir seguro desemprego depois de demitido?",
+        "esperado": "S04",
+        "obtido": "S04",
+        "acerto": true,
+        "tempo_ms": 0.0321
+      }
+    ]
+  },
+  "modelos": {
+    "M1": {
+      "pontuacao_media": 2.57,
+      "tamanho_medio_caracteres": 355,
+      "respostas_avaliadas": 23
+    },
+    "M2": {
+      "pontuacao_media": 5.0,
+      "tamanho_medio_caracteres": 889,
+      "respostas_avaliadas": 23
+    }
+  },
+  "usabilidade": [
+    {
+      "tarefa": "T1 Perguntar sobre o CPF",
+      "passos": 2,
+      "concluida": true
+    },
+    {
+      "tarefa": "T2 Navegar por menu até uma orientação",
+      "passos": 3,
+      "concluida": true
+    },
+    {
+      "tarefa": "T3 Seguir um assunto relacionado",
+      "passos": 4,
+      "concluida": true
+    },
+    {
+      "tarefa": "T4 Recuperar-se de opção inválida e entrada vazia",
+      "passos": 4,
+      "concluida": true
+    },
+    {
+      "tarefa": "T5 Pergunta fora da base e alternativas",
+      "passos": 2,
+      "concluida": true
+    }
+  ]
+}
