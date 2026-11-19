@@ -4,9 +4,7 @@ Assistente digital (interface textual, em Python) que organiza orientações cid
 
 > Protótipo educacional (Global Solution FIAP). **Não é canal oficial** de nenhum órgão público e **não coleta dados pessoais**.
 
-## 1. Equipe
-- **Equipe:** [NOME DA EQUIPE]
-- **Integrantes (RM):** [RM - Nome do integrante 1]; [RM - Nome do integrante 2]; [RM - Nome do integrante 3]
+- **Integrantes (RM):** [571819 - Beatriz Marques Souza]; 
 
 ## 2. Problema, público e temas
 Cidadãos precisam encontrar orientações confiáveis sobre documentos, serviços e situações comuns. Quando fontes e instruções estão dispersas, a busca fica lenta e sujeita a interpretações incorretas.
@@ -127,26 +125,14 @@ ATENÇÃO: confirme requisitos, valores e prazos atualizados na fonte oficial.
 - Aviso permanente de que não é canal oficial; toda resposta traz fonte e data de verificação.
 - Orientações são resumos: **confirme sempre na fonte oficial** antes de agir.
 
-### Fontes da base
-- **D01** (documentos): https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf - verificado em 2026-11-19
-- **D02** (documentos): https://www.gov.br/governodigital/pt-br/identidade/carteira-de-identidade-nacional - verificado em 2026-11-19
-- **D03** (documentos): https://www.planalto.gov.br/ccivil_03/leis/l9534.htm - verificado em 2026-11-19
-- **D04** (documentos): https://www.tse.jus.br/eleitor/titulo-e-local-de-votacao - verificado em 2026-11-19
-- **D05** (documentos): https://www.gov.br/pf/pt-br/assuntos/passaporte - verificado em 2026-11-19
-- **D06** (documentos): https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/carteira-de-trabalho - verificado em 2026-11-19
-- **S01** (servicos): https://meu.inss.gov.br - verificado em 2026-11-19
-- **S02** (servicos): https://www.gov.br/saude/pt-br - verificado em 2026-11-19
-- **S03** (servicos): https://www.gov.br/saude/pt-br - verificado em 2026-11-19
-- **S04** (servicos): https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/seguro-desemprego - verificado em 2026-11-19
-- **S05** (servicos): https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia - verificado em 2026-11-19
-- **S06** (servicos): https://www.cvv.org.br - verificado em 2026-11-19
-- **C01** (direitos_comunidade): https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm - verificado em 2026-11-19
-- **C02** (direitos_comunidade): https://www.consumidor.gov.br - verificado em 2026-11-19
-- **C03** (direitos_comunidade): https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm - verificado em 2026-11-19
-- **C04** (direitos_comunidade): https://www.gov.br/mdh/pt-br - verificado em 2026-11-19
-- **C05** (direitos_comunidade): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm - verificado em 2026-11-19
-- **C06** (direitos_comunidade): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm - verificado em 2026-11-19
-- **C07** (direitos_comunidade): https://www.planalto.gov.br/ccivil_03/leis/l8069.htm - verificado em 2026-11-19
+### Principais fontes da base
+- **D01** (documentos): https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf 
+- **D02** (documentos): https://www.gov.br/governodigital/pt-br/identidade/carteira-de-identidade-nacional 
+- **D03** (documentos): https://www.planalto.gov.br/ccivil_03/leis/l9534.htm
+- **D04** (documentos): https://www.tse.jus.br/eleitor/titulo-e-local-de-votacao
+- **D05** (documentos): https://www.gov.br/pf/pt-br/assuntos/passaporte 
+- **D06** (documentos): https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/carteira-de-trabalho 
+
 
 ## 9. Conclusões, limitações e melhorias
 O protótipo cumpre o fluxo completo: pergunta ou menu, busca, resposta com fonte, aviso de limitação e navegação entre assuntos. Limitações: base pequena (de 19 registros), busca lexical sem entendimento de sentido, informações públicas mudam e exigem revisão periódica. Melhorias: sinônimos, mais temas e fontes locais (município/estado), interface web e testes com usuários reais.
