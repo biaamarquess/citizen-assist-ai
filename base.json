@@ -1,0 +1,491 @@
+{
+  "versao": "1.0",
+  "aviso": "Base de orientações resumidas para fins educacionais. Não é canal oficial. Confirme sempre na fonte indicada.",
+  "campos_obrigatorios": [
+    "id",
+    "tema",
+    "subtema",
+    "palavras_chave",
+    "pergunta",
+    "orientacao",
+    "referencia",
+    "data_verificacao"
+  ],
+  "temas": {
+    "documentos": {
+      "nome": "Documentos",
+      "descricao": "Documentos pessoais, cadastros e como obtê-los.",
+      "subtemas": {
+        "identificacao": "Identificação civil",
+        "eleitoral": "Documentos eleitorais",
+        "viagem": "Viagem",
+        "trabalho": "Trabalho"
+      }
+    },
+    "servicos": {
+      "nome": "Serviços",
+      "descricao": "Serviços públicos de saúde, previdência e assistência social.",
+      "subtemas": {
+        "saude": "Saúde",
+        "previdencia_trabalho": "Previdência e trabalho",
+        "assistencia_social": "Assistência social"
+      }
+    },
+    "direitos_comunidade": {
+      "nome": "Direitos e orientações comunitárias",
+      "descricao": "Direitos do consumidor, proteção de pessoas e cidadania.",
+      "subtemas": {
+        "consumidor": "Consumidor",
+        "protecao": "Proteção e denúncias",
+        "acesso_justica": "Acesso à justiça",
+        "cidadania": "Cidadania"
+      }
+    }
+  },
+  "registros": [
+    {
+      "id": "D01",
+      "tema": "documentos",
+      "subtema": "identificacao",
+      "palavras_chave": [
+        "cpf",
+        "situação cadastral",
+        "regularizar cpf",
+        "cpf pendente",
+        "consultar cpf",
+        "receita federal"
+      ],
+      "pergunta": "Como consultar ou regularizar a situação cadastral do CPF?",
+      "orientacao": "A situação cadastral do CPF pode ser consultada no site da Receita Federal, informando o número do CPF e a data de nascimento. Se houver pendência ou irregularidade, a regularização também é feita pelos canais da Receita Federal.",
+      "referencia": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "D02",
+        "D06",
+        "S05"
+      ]
+    },
+    {
+      "id": "D02",
+      "tema": "documentos",
+      "subtema": "identificacao",
+      "palavras_chave": [
+        "carteira de identidade",
+        "identidade",
+        "rg",
+        "cin",
+        "segunda via rg",
+        "emitir rg",
+        "carteira de identidade nacional"
+      ],
+      "pergunta": "Como emitir a Carteira de Identidade Nacional (CIN) ou a segunda via do RG?",
+      "orientacao": "A Carteira de Identidade Nacional (CIN) adota o CPF como número único de registro. A emissão é feita pelos órgãos de identificação dos estados, geralmente com agendamento; documentos exigidos e valores podem variar, então consulte o site do órgão do seu estado.",
+      "referencia": "https://www.gov.br/governodigital/pt-br/identidade/carteira-de-identidade-nacional",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "D01",
+        "D03",
+        "D05"
+      ]
+    },
+    {
+      "id": "D03",
+      "tema": "documentos",
+      "subtema": "identificacao",
+      "palavras_chave": [
+        "certidão de nascimento",
+        "registro de nascimento",
+        "cartório",
+        "registro civil",
+        "certidão",
+        "nascimento",
+        "recém-nascido"
+      ],
+      "pergunta": "Como obter o registro e a certidão de nascimento?",
+      "orientacao": "O registro de nascimento é feito em cartório de registro civil. O registro de nascimento e a primeira certidão são gratuitos por lei. Segundas vias podem ter custo, conforme as regras do estado e do cartório.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l9534.htm",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "D02",
+        "S05",
+        "C07"
+      ]
+    },
+    {
+      "id": "D04",
+      "tema": "documentos",
+      "subtema": "eleitoral",
+      "palavras_chave": [
+        "título de eleitor",
+        "título eleitoral",
+        "local de votação",
+        "e-título",
+        "zona eleitoral",
+        "situação eleitoral",
+        "tse"
+      ],
+      "pergunta": "Como consultar o título de eleitor e o local de votação?",
+      "orientacao": "A Justiça Eleitoral (TSE) oferece, no portal e no aplicativo e-Título, serviços como consulta da situação eleitoral e do local de votação. Alistamento, transferência e regularização seguem as regras da Justiça Eleitoral; confirme prazos e requisitos no site do TSE.",
+      "referencia": "https://www.tse.jus.br/eleitor/titulo-e-local-de-votacao",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "D02",
+        "C06"
+      ]
+    },
+    {
+      "id": "D05",
+      "tema": "documentos",
+      "subtema": "viagem",
+      "palavras_chave": [
+        "passaporte",
+        "passaporte comum",
+        "polícia federal",
+        "viagem internacional",
+        "emitir passaporte",
+        "gru"
+      ],
+      "pergunta": "Como solicitar o passaporte comum?",
+      "orientacao": "O passaporte comum é emitido pela Polícia Federal. O processo envolve preencher a solicitação online, pagar a taxa por meio da GRU e agendar atendimento presencial em uma unidade da Polícia Federal para apresentar documentos e fazer a coleta biométrica. Valores e documentos exigidos podem mudar.",
+      "referencia": "https://www.gov.br/pf/pt-br/assuntos/passaporte",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "D02",
+        "D01"
+      ]
+    },
+    {
+      "id": "D06",
+      "tema": "documentos",
+      "subtema": "trabalho",
+      "palavras_chave": [
+        "carteira de trabalho",
+        "carteira de trabalho digital",
+        "ctps",
+        "ctps digital",
+        "contrato de trabalho",
+        "vínculo empregatício"
+      ],
+      "pergunta": "Como acessar a Carteira de Trabalho Digital?",
+      "orientacao": "A Carteira de Trabalho Digital é acessada pelo aplicativo ou portal oficial, com login na conta gov.br, e permite consultar os contratos de trabalho registrados. O nível da conta gov.br e outras exigências podem variar; confirme no canal oficial.",
+      "referencia": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/carteira-de-trabalho",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "S04",
+        "S01",
+        "D01"
+      ]
+    },
+    {
+      "id": "S01",
+      "tema": "servicos",
+      "subtema": "previdencia_trabalho",
+      "palavras_chave": [
+        "inss",
+        "meu inss",
+        "aposentadoria",
+        "benefício previdenciário",
+        "perícia",
+        "agendar perícia",
+        "previdência",
+        "central 135"
+      ],
+      "pergunta": "Como usar o Meu INSS para pedir benefícios ou agendar serviços?",
+      "orientacao": "O Meu INSS (site e aplicativo) permite pedir benefícios, agendar serviços como perícia e consultar informações previdenciárias, com login na conta gov.br. Também há atendimento pela Central 135. Documentos e regras variam conforme o benefício; confirme no canal oficial.",
+      "referencia": "https://meu.inss.gov.br",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "D06",
+        "S04",
+        "D01"
+      ]
+    },
+    {
+      "id": "S02",
+      "tema": "servicos",
+      "subtema": "saude",
+      "palavras_chave": [
+        "sus",
+        "sistema único de saúde",
+        "unidade básica de saúde",
+        "ubs",
+        "posto de saúde",
+        "atendimento médico gratuito",
+        "cartão sus"
+      ],
+      "pergunta": "Como funciona o atendimento no SUS e por onde começar?",
+      "orientacao": "O SUS oferece atendimento gratuito e universal. A Unidade Básica de Saúde (UBS) é, em geral, a porta de entrada: nela a pessoa recebe o atendimento inicial e, quando necessário, é encaminhada a serviços especializados. Em urgência, procure uma UPA ou pronto atendimento.",
+      "referencia": "https://www.gov.br/saude/pt-br",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": [
+        "S03",
+        "S06"
+      ]
+    },
+    {
+      "id": "S03",
+      "tema": "servicos",
+      "subtema": "saude",
+      "palavras_chave": [
+        "vacina",
+        "vacinação",
+        "vacinas gratuitas",
+        "caderneta de vacinação",
+        "carteira de vacinação",
+        "calendário de vacinação",
+        "imunização",
+        "pni"
+      ],
+      "pergunta": "Onde tomar vacinas gratuitas e como consultar a carteira de vacinação?",
+      "orientacao": "As vacinas do Programa Nacional de Imunizações (PNI) são oferecidas gratuitamente pelo SUS, em geral nas Unidades Básicas de Saúde. Leve um documento de identificação e a caderneta de vacinação, se tiver; o Meu SUS Digital também permite consultar a carteira de vacinação. O calendário varia por idade e campanha.",
+      "referencia": "https://www.gov.br/saude/pt-br",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "S02",
+        "D03"
+      ]
+    },
+    {
+      "id": "S04",
+      "tema": "servicos",
+      "subtema": "previdencia_trabalho",
+      "palavras_chave": [
+        "seguro-desemprego",
+        "seguro desemprego",
+        "demissão",
+        "demitido",
+        "dispensa sem justa causa",
+        "desemprego",
+        "perdi o emprego"
+      ],
+      "pergunta": "Como pedir o seguro-desemprego?",
+      "orientacao": "O seguro-desemprego é um benefício temporário para trabalhadores dispensados sem justa causa que cumprem os requisitos legais. O pedido deve ser feito dentro do prazo, que em geral vai de 7 a 120 dias contados da data da dispensa. Confirme requisitos e forma de solicitação no canal oficial do Ministério do Trabalho e Emprego.",
+      "referencia": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/seguro-desemprego",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "D06",
+        "S01",
+        "S05"
+      ]
+    },
+    {
+      "id": "S05",
+      "tema": "servicos",
+      "subtema": "assistencia_social",
+      "palavras_chave": [
+        "cadúnico",
+        "cadastro único",
+        "bolsa família",
+        "programa social",
+        "cras",
+        "assistência social",
+        "auxílio"
+      ],
+      "pergunta": "Como me inscrever no CadÚnico para acessar programas como o Bolsa Família?",
+      "orientacao": "O Cadastro Único (CadÚnico) é a porta de entrada para programas sociais como o Bolsa Família. A inscrição é feita presencialmente, em geral no CRAS ou em local indicado pela assistência social do município, com documentos da família. As regras de elegibilidade são definidas por cada programa; confirme no órgão municipal.",
+      "referencia": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "D01",
+        "S04",
+        "C05"
+      ]
+    },
+    {
+      "id": "S06",
+      "tema": "servicos",
+      "subtema": "saude",
+      "palavras_chave": [
+        "emergência",
+        "urgência",
+        "samu",
+        "192",
+        "188",
+        "cvv",
+        "apoio emocional",
+        "pedir socorro",
+        "ambulância"
+      ],
+      "pergunta": "Quais números chamar em emergência de saúde ou para apoio emocional?",
+      "orientacao": "Em emergência de saúde, ligue 192 (SAMU), gratuito. Para apoio emocional e prevenção do suicídio, o CVV atende 24 horas pelo 188, também gratuito. Em risco imediato de vida, acione o serviço de emergência sem esperar.",
+      "referencia": "https://www.cvv.org.br",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": [
+        "S02",
+        "C03"
+      ]
+    },
+    {
+      "id": "C01",
+      "tema": "direitos_comunidade",
+      "subtema": "consumidor",
+      "palavras_chave": [
+        "direito de arrependimento",
+        "arrependimento",
+        "devolver compra",
+        "compra pela internet",
+        "compra online",
+        "desistir da compra",
+        "código de defesa do consumidor",
+        "cdc"
+      ],
+      "pergunta": "Posso desistir de uma compra feita pela internet?",
+      "orientacao": "Em compras feitas fora do estabelecimento comercial, como pela internet ou por telefone, o consumidor pode desistir em até 7 dias, contados da assinatura do contrato ou do recebimento do produto ou serviço (Código de Defesa do Consumidor, art. 49). Guarde comprovantes e comunique a empresa por escrito.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "C02"
+      ]
+    },
+    {
+      "id": "C02",
+      "tema": "direitos_comunidade",
+      "subtema": "consumidor",
+      "palavras_chave": [
+        "reclamar",
+        "reclamação",
+        "procon",
+        "consumidor.gov.br",
+        "sac",
+        "empresa não resolveu",
+        "problema com empresa",
+        "defesa do consumidor"
+      ],
+      "pergunta": "Como reclamar de uma empresa que não resolveu meu problema?",
+      "orientacao": "Guarde protocolos, notas e conversas e registre a reclamação em canais de defesa do consumidor, como o Procon do seu município ou estado e a plataforma consumidor.gov.br. Para valores altos ou situações complexas, considere buscar orientação jurídica.",
+      "referencia": "https://www.consumidor.gov.br",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "C01",
+        "C05"
+      ]
+    },
+    {
+      "id": "C03",
+      "tema": "direitos_comunidade",
+      "subtema": "protecao",
+      "palavras_chave": [
+        "violência doméstica",
+        "violência contra a mulher",
+        "maria da penha",
+        "ligue 180",
+        "agressão",
+        "medida protetiva"
+      ],
+      "pergunta": "Onde buscar ajuda em caso de violência doméstica contra a mulher?",
+      "orientacao": "A Lei Maria da Penha (Lei 11.340/2006) protege mulheres em situação de violência doméstica e familiar. O Ligue 180 é a Central de Atendimento à Mulher, gratuita, que orienta e encaminha denúncias. Em risco imediato, acione a polícia ou o serviço de emergência.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": [
+        "C04",
+        "C05",
+        "S06"
+      ]
+    },
+    {
+      "id": "C04",
+      "tema": "direitos_comunidade",
+      "subtema": "protecao",
+      "palavras_chave": [
+        "disque 100",
+        "violação de direitos humanos",
+        "maus-tratos idoso",
+        "violência contra idoso",
+        "pessoa idosa",
+        "pessoa com deficiência",
+        "denunciar maus-tratos"
+      ],
+      "pergunta": "Como denunciar violação de direitos humanos, como maus-tratos contra pessoa idosa?",
+      "orientacao": "O Disque 100 recebe denúncias de violações de direitos humanos, incluindo violência contra pessoas idosas, crianças e adolescentes e pessoas com deficiência. O serviço é gratuito e a denúncia pode ser anônima. Em risco imediato, acione também a polícia.",
+      "referencia": "https://www.gov.br/mdh/pt-br",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": [
+        "C03",
+        "C07"
+      ]
+    },
+    {
+      "id": "C05",
+      "tema": "direitos_comunidade",
+      "subtema": "acesso_justica",
+      "palavras_chave": [
+        "defensoria pública",
+        "advogado gratuito",
+        "assistência jurídica gratuita",
+        "dinheiro para advogado",
+        "justiça gratuita",
+        "orientação jurídica"
+      ],
+      "pergunta": "Como obter orientação jurídica gratuita?",
+      "orientacao": "A Defensoria Pública presta orientação jurídica e defesa gratuitas a pessoas que comprovem insuficiência de recursos (Constituição Federal, arts. 5º, LXXIV, e 134). Procure a Defensoria Pública do seu estado; documentos exigidos e áreas atendidas variam por unidade.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": true,
+      "relacionados": [
+        "C02",
+        "C03",
+        "S05"
+      ]
+    },
+    {
+      "id": "C06",
+      "tema": "direitos_comunidade",
+      "subtema": "cidadania",
+      "palavras_chave": [
+        "voto obrigatório",
+        "voto facultativo",
+        "quem pode votar",
+        "obrigatoriedade do voto",
+        "votar",
+        "idade para votar"
+      ],
+      "pergunta": "Quem é obrigado a votar e para quem o voto é facultativo?",
+      "orientacao": "Pela Constituição Federal (art. 14), o voto é obrigatório para maiores de 18 e menores de 70 anos, e facultativo para analfabetos, maiores de 70 anos e jovens de 16 e 17 anos.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": [
+        "D04"
+      ]
+    },
+    {
+      "id": "C07",
+      "tema": "direitos_comunidade",
+      "subtema": "protecao",
+      "palavras_chave": [
+        "conselho tutelar",
+        "eca",
+        "criança",
+        "adolescente",
+        "negligência",
+        "direitos da criança"
+      ],
+      "pergunta": "A quem recorrer quando direitos de uma criança ou adolescente estão ameaçados?",
+      "orientacao": "O Conselho Tutelar atende situações em que direitos de crianças e adolescentes estão ameaçados ou violados, conforme o Estatuto da Criança e do Adolescente (Lei 8.069/1990). Cada município tem Conselho Tutelar; em risco imediato, acione a polícia ou o serviço de emergência. Denúncias também podem ser feitas ao Disque 100.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm",
+      "data_verificacao": "2026-11-19",
+      "requer_confirmacao": false,
+      "relacionados": [
+        "C04",
+        "D03",
+        "S05"
+      ]
+    }
+  ]
+}

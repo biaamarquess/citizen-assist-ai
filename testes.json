@@ -1,0 +1,206 @@
+[
+  {
+    "id": "T01",
+    "tipo": "direta",
+    "entrada": "Como consultar a situação do meu CPF?",
+    "esperado": "D01"
+  },
+  {
+    "id": "T02",
+    "tipo": "direta",
+    "entrada": "Como emitir a Carteira de Identidade Nacional?",
+    "esperado": "D02"
+  },
+  {
+    "id": "T03",
+    "tipo": "direta",
+    "entrada": "Onde faço a certidão de nascimento do meu filho?",
+    "esperado": "D03"
+  },
+  {
+    "id": "T04",
+    "tipo": "direta",
+    "entrada": "Como consultar meu local de votação?",
+    "esperado": "D04"
+  },
+  {
+    "id": "T05",
+    "tipo": "direta",
+    "entrada": "Como solicitar o passaporte?",
+    "esperado": "D05"
+  },
+  {
+    "id": "T06",
+    "tipo": "direta",
+    "entrada": "Como acessar a Carteira de Trabalho Digital?",
+    "esperado": "D06"
+  },
+  {
+    "id": "T07",
+    "tipo": "direta",
+    "entrada": "Como agendar perícia no INSS?",
+    "esperado": "S01"
+  },
+  {
+    "id": "T08",
+    "tipo": "direta",
+    "entrada": "Como funciona o atendimento no SUS?",
+    "esperado": "S02"
+  },
+  {
+    "id": "T09",
+    "tipo": "direta",
+    "entrada": "Onde tomar vacina de graça?",
+    "esperado": "S03"
+  },
+  {
+    "id": "T10",
+    "tipo": "direta",
+    "entrada": "Como pedir o seguro-desemprego?",
+    "esperado": "S04"
+  },
+  {
+    "id": "T11",
+    "tipo": "direta",
+    "entrada": "Como me inscrever no CadÚnico?",
+    "esperado": "S05"
+  },
+  {
+    "id": "T12",
+    "tipo": "direta",
+    "entrada": "Qual número ligar em uma emergência de saúde?",
+    "esperado": "S06"
+  },
+  {
+    "id": "T13",
+    "tipo": "direta",
+    "entrada": "Posso desistir de uma compra feita pela internet?",
+    "esperado": "C01"
+  },
+  {
+    "id": "T14",
+    "tipo": "direta",
+    "entrada": "Como denunciar violência doméstica contra a mulher?",
+    "esperado": "C03"
+  },
+  {
+    "id": "T15",
+    "tipo": "reformulacao",
+    "entrada": "Quero tirar o RG novo",
+    "esperado": "D02"
+  },
+  {
+    "id": "T16",
+    "tipo": "reformulacao",
+    "entrada": "Meu CPF está pendente, como regularizar?",
+    "esperado": "D01"
+  },
+  {
+    "id": "T17",
+    "tipo": "reformulacao",
+    "entrada": "Fui demitido sem justa causa, tenho direito a algum benefício?",
+    "esperado": "S04"
+  },
+  {
+    "id": "T18",
+    "tipo": "reformulacao",
+    "entrada": "Não tenho dinheiro para pagar advogado",
+    "esperado": "C05"
+  },
+  {
+    "id": "T19",
+    "tipo": "reformulacao",
+    "entrada": "A empresa não resolveu meu problema, onde reclamar?",
+    "esperado": "C02"
+  },
+  {
+    "id": "T20",
+    "tipo": "reformulacao",
+    "entrada": "Quem pode votar e quem tem voto facultativo?",
+    "esperado": "C06"
+  },
+  {
+    "id": "T21",
+    "tipo": "reformulacao",
+    "entrada": "Como denunciar maus-tratos contra um idoso?",
+    "esperado": "C04"
+  },
+  {
+    "id": "T22",
+    "tipo": "reformulacao",
+    "entrada": "Uma criança está sendo negligenciada, a quem recorrer?",
+    "esperado": "C07"
+  },
+  {
+    "id": "T23",
+    "tipo": "fora_do_tema",
+    "entrada": "Qual a previsão do tempo para amanhã?",
+    "esperado": "SEM_RESPOSTA"
+  },
+  {
+    "id": "T24",
+    "tipo": "fora_do_tema",
+    "entrada": "Como fazer bolo de chocolate?",
+    "esperado": "SEM_RESPOSTA"
+  },
+  {
+    "id": "T25",
+    "tipo": "limite_ausencia_resposta",
+    "entrada": "Como declarar o imposto de renda do ano passado?",
+    "esperado": "SEM_RESPOSTA"
+  },
+  {
+    "id": "T26",
+    "tipo": "limite_entrada_vazia",
+    "entrada": "",
+    "esperado": "ENTRADA_VAZIA"
+  },
+  {
+    "id": "T27",
+    "tipo": "limite_entrada_invalida",
+    "entrada": "?!?! ###",
+    "esperado": "ENTRADA_INVALIDA"
+  },
+  {
+    "id": "T28",
+    "tipo": "limite_ambigua",
+    "entrada": "carteira",
+    "esperado": "AMBIGUA"
+  },
+  {
+    "id": "T29",
+    "tipo": "limite_ambigua",
+    "entrada": "Preciso de ajuda com documentos",
+    "esperado": "AMBIGUA"
+  },
+  {
+    "id": "T30",
+    "tipo": "reformulacao_dificil",
+    "entrada": "Meu bebê nasceu, o que preciso fazer para registrar?",
+    "esperado": "D03"
+  },
+  {
+    "id": "T31",
+    "tipo": "reformulacao_dificil",
+    "entrada": "Como saber se já posso me aposentar?",
+    "esperado": "S01"
+  },
+  {
+    "id": "T32",
+    "tipo": "reformulacao_dificil",
+    "entrada": "Estou muito mal emocionalmente, onde encontro ajuda?",
+    "esperado": "S06"
+  },
+  {
+    "id": "T33",
+    "tipo": "reformulacao_dificil",
+    "entrada": "Comprei um tênis no site e não gostei, posso devolver?",
+    "esperado": "C01"
+  },
+  {
+    "id": "T34",
+    "tipo": "reformulacao_dificil",
+    "entrada": "Quanto tempo tenho para pedir seguro desemprego depois de demitido?",
+    "esperado": "S04"
+  }
+]
